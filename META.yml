@@ -17,4 +17,4 @@ name: Getopt-Usaginator
 recommends: {}
 requires:
   Package::Pkg: 0.0014
-version: 0.0010
+version: 0.0011

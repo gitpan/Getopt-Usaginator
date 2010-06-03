@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
                                            },
                        'ABSTRACT' => 'Conjure up a \'usage\' function for your applications',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.0010',
+                       'VERSION' => '0.0011',
                        'PREREQ_PM' => {
                                         'Package::Pkg' => '0.0014'
                                       },

@@ -1,6 +1,6 @@
 package Getopt::Usaginator;
 BEGIN {
-  $Getopt::Usaginator::VERSION = '0.0010';
+  $Getopt::Usaginator::VERSION = '0.0011';
 }
 # ABSTRACT: Conjure up a 'usage' function for your applications
 
@@ -109,7 +109,7 @@ Getopt::Usaginator - Conjure up a 'usage' function for your applications
 
 =head1 VERSION
 
-version 0.0010
+version 0.0011
 
 =head1 SYNOPSIS
 
@@ -176,6 +176,29 @@ An example:
         usage => sub { ... },
         ...
     ;
+
+=head1 An example with Getopt::Long parsing
+
+    use Getopt::Usaginator ...
+
+    sub run {
+        my $self = shift;
+        my @arguments = @_;
+    
+        usage 0 unless @arguments;
+
+        my ( $help );
+        {     
+            local @ARGV = @arguments;                                  
+            GetOptions(
+                'help|h|?' => \$help,
+            );
+        }
+
+        usage 0 if $help;
+
+        ...
+    }
 
 =head1 AUTHOR
 
