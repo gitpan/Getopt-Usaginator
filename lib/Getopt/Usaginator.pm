@@ -1,8 +1,8 @@
 package Getopt::Usaginator;
 BEGIN {
-  $Getopt::Usaginator::VERSION = '0.0011';
+  $Getopt::Usaginator::VERSION = '0.0012';
 }
-# ABSTRACT: Conjure up a 'usage' function for your applications
+# ABSTRACT: Conjure up a usage function for your applications
 
 
 use strict;
@@ -105,11 +105,11 @@ __END__
 
 =head1 NAME
 
-Getopt::Usaginator - Conjure up a 'usage' function for your applications
+Getopt::Usaginator - Conjure up a usage function for your applications
 
 =head1 VERSION
 
-version 0.0011
+version 0.0012
 
 =head1 SYNOPSIS
 

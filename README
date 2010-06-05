@@ -1,8 +1,8 @@
 NAME
-    Getopt::Usaginator - Conjure up a 'usage' function for your applications
+    Getopt::Usaginator - Conjure up a usage function for your applications
 
 VERSION
-    version 0.0011
+    version 0.0012
 
 SYNOPSIS
         use Getopt::Usaginator <<_END_;

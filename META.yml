@@ -1,5 +1,5 @@
 ---
-abstract: "Conjure up a 'usage' function for your applications"
+abstract: 'Conjure up a usage function for your applications'
 author:
   - 'Robert Krimen <robertkrimen@gmail.com>'
 build_requires:
@@ -17,4 +17,4 @@ name: Getopt-Usaginator
 recommends: {}
 requires:
   Package::Pkg: 0.0014
-version: 0.0011
+version: 0.0012

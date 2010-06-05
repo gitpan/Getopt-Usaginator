@@ -23,9 +23,9 @@ my %WriteMakefileArgs = (
                                              'Test::Most' => '0',
                                              'IPC::Open3' => '0'
                                            },
-                       'ABSTRACT' => 'Conjure up a \'usage\' function for your applications',
+                       'ABSTRACT' => 'Conjure up a usage function for your applications',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.0011',
+                       'VERSION' => '0.0012',
                        'PREREQ_PM' => {
                                         'Package::Pkg' => '0.0014'
                                       },
